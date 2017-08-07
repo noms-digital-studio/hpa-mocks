@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/prisoners\\?given_name=john&surname=smith"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "noms_id": "A12345A",
+      "given_name": "John",
+      "middle_names": "",
+      "surname": "Smith",
+      "date_of_birth": "1988-08-18",
+      "gender": "Male",
+      "nationalities": "UNITED KINGDOM",
+      "pnc_number": "96\/123456A",
+      "cro_number": "123"
+   },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
+
+
