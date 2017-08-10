@@ -1,0 +1,35 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/v2/prisoners\\?firstName=john&lastName=smith"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "dateOfBirth": "1980-01-01",
+        "firstName": "john",
+        "lastName": "smith",
+        "nomsId": "1234",
+        "additionalProperties": {},
+        "middleNames": "alan",
+        "gender": "male",
+        "nationalities": [
+          "UK"
+        ],
+        "pncNumber": "123",
+        "croNumber": "456",
+        "paroleNumbers": "123,456",
+        "ethnicity": "white",
+        "birthCountry": "england",
+        "religion": "catholic",
+        "receptionDate": "2017-08-10",
+        "maritalStatus": "single"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
+
