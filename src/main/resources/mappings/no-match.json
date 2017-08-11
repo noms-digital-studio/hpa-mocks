@@ -1,0 +1,14 @@
+{
+  "priority":10,
+  "request": {
+    "method": "GET",
+    "urlPattern": ".*"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,7 +1,12 @@
 {
   "request": {
     "method": "POST",
-    "urlPattern": "/api/users/login"
+    "urlPattern": "/api/users/login",
+    "headers" : {
+      "Authorization" : {
+        "absent" : true
+      }
+    }
   },
   "response": {
     "status": 201,

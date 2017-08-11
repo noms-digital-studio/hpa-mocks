@@ -18,5 +18,20 @@ curl http://localhost:9090/__admin/
 
 # Example request
 ```
-curl http://localhost:9090/prisoners?given_name=john&surname=smith
+curl -H "Authorization: token" http://localhost:9090/prisoners?firstName=john&lastName=smith
 ```
+
+
+# Mappings
+
+Must include the Authorization header (any value):
+
+* GET lastName=surnamea > one match Firsta Surnamea
+* GET lastName=sunameb > one match Firstb Surnameb
+* GET lastName=surname% > the above two matches NB url encode % as %25 - todo define wildard operator
+* GET anything else > 0 results response 
+ 
+Without the Authorization header
+
+* GET anything > 401 response
+* POST /api/users/login > access token response
