@@ -1,12 +1,7 @@
 {
-  "priority": 1,
   "request": {
     "method": "GET",
-    "headers" : {
-      "Authorization" : {
-        "absent" : true
-      }
-    }
+    "urlPattern": "/api/v2/prisoners\\?lastName=unauth"
   },
   "response": {
     "status": 401,

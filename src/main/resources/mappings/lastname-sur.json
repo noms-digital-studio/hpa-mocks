@@ -1,7 +1,7 @@
 {
   "request": {
     "method": "GET",
-    "urlPattern": "/api/v2/prisoners\\?lastName=surname%25"
+    "urlPattern": "/api/v2/prisoners\\?lastName=sur"
   },
   "response": {
     "status": 200,
