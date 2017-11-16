@@ -4,3 +4,4 @@ target/
 build/
 gradlew.bat
 out/
+npm-debug.log
